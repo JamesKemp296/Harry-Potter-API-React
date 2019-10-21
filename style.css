@@ -1,0 +1,13 @@
+.character{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
