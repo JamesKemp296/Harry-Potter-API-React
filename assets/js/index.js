@@ -20,7 +20,7 @@ const getCharacters = () => {
     )).join('')
   })
 }
-getCharacters()
+getCharacters();
 
 const sortCharactersByName = () => {
   fetch(url)
@@ -37,22 +37,6 @@ const sortCharactersByName = () => {
       `
     )).join('')
   })
-}
-
-const sortCharactersByHouse = () => {
-  // fetch(url)
-  // .then(response => response.json())
-  // .then(posts => {
-  //   charactersDiv.innerHTML = posts.map(post => (
-  //     `
-  //     <div class="character">
-  //       <h3 class="title">${post.house}</h3>
-  //       <img class="image" src="${post.image}" alt="${post.name}"/>
-  //     </div>
-  //     `
-  //   )).join('')
-  // })
-  console.log('is this broken')
+  // Do not edit below this line
 }
 sortByName.addEventListener('click', sortCharactersByName)
-sortByHouse.addEventListener('click', sortCharactersByHouse)
